@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Emojifoods
 #### Video Demo:
 #### Description:
@@ -77,3 +78,7 @@ helpers.py: functionalities in python to help other functions, apology() functio
 README.md: this file
 
 requirements.txt: the libraries and modules needed in python.
+=======
+# dynamic_webpage_emojifood
+Dynamic webpage, displays information about emojies related to food.
+>>>>>>> 01d6fb0eedef958083273d90ef2f8c0904261fea
