@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Emojifoods
 #### Video Demo:
 #### Description:
