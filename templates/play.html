@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Play
+{% endblock %}
+
+{% block main %}
+
+    <script>
+        var emoji_name = '{{ emoji_name }}'
+        // Run script once DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+        // Check the response submission
+        document.querySelector('#check').addEventListener('click', function() {
+            let input = document.querySelector('input');
+                if (input.value.toLowerCase() === emoji_name) {
+                    input.style.backgroundColor = 'green';
+                    // Announces if you win replaces win an emoji message
+                    document.getElementById("win-emoji").innerHTML = "You have won one unit of {{ emoji_name }}!!!";
+                } else {
+                    input.style.backgroundColor = 'red';
+                    // Announces if you lose replaces win an emoji message
+                    document.getElementById("win-emoji").innerHTML = "Better luck next time keep trying";
+                }
+            });
+        });
+    </script>
+
+<!-- {{ emoji_name }} -->
+<!-- Trivia for the user container-->
+    <div class="game-container">
+
+        <div class="promo-container">
+            <h1 id="win-emoji">Win an emoji!!!</h1>
+        </div>
+
+        <!-- emoji_img is sent by play() funtion app.py-->
+        <div class="question-container">
+            <img id="winemoji-img" src="/static/images_food/{{ emoji_img }}" alt="emoji_img">
+            <h4>What's the official emoji name of this delicacy?</h4>
+        </div>
+
+        <div class="answer-container">
+            <input type="text"></input>
+            <button id="check">Check Answer</button>
+        </div>
+
+    </div>
+{% endblock %}

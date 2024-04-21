@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+<!-- Header -->
+<div id="head-contain">
+  <h2 id="headers">Look in each category and enjoy your food!!!</h2>
+</div>
+
+<!-- First row of the grid of products -->
+<div id = "btncontainer" >
+  <div class = "btn-group">
+    <!-- These buttons contain the image and the name of the food subcategory -->
+    <button type = "button" class = "butcat" onclick="window.location.href='/dishware';">
+      <img class="buttonicon"src="/static/images_food/fork_and_knife.png" alt="fork"><p class="food-cate">Dishware</p>
+    </button>
+    <button type = "button" class = "butcat" onclick="window.location.href='/drinks';">
+      <img class="buttonicon"src="/static/images_food/wine_glass.png" alt="wine"><p class="food-cate">Drinks</p>
+    </button>
+    <button type = "button" class = "butcat" onclick="window.location.href='/asian';">
+      <img class="buttonicon"src="/static/images_food/sushi.png" alt="sushi"><p class="food-cate">Asian</p>
+    </button>
+    <button type = "button" class = "butcat" onclick="window.location.href='/fruit';">
+      <img class="buttonicon"src="/static/images_food/tangerine.png" alt="tangerine"><p class="food-cate">Fruit</p>
+    </button>
+  </div>
+</div>
+
+<!-- Second row of the grid of products -->
+<div id = "btncontainer">
+  <div class = "btn-group">
+    <!-- These buttons contain the image and the name of the food subcategory -->
+    <button type = "button" class = "butcat" onclick="window.location.href='/marine';">
+      <img class="buttonicon"src="/static/images_food/shrimp.png" alt="shrimp"><p class="food-cate">Marine</p>
+    </button>
+    <button type = "button" class = "butcat" onclick="window.location.href='/prepared';">
+      <img class="buttonicon"src="/static/images_food/hamburger.png" alt="hamburger"><p class="food-cate">Prepared</p>
+    </button>
+    <button type = "button" class = "butcat" onclick="window.location.href='/sweets';">
+      <img class="buttonicon"src="/static/images_food/chocolate_bar.png" alt="chocolate"><p class="food-cate">Sweets</p>
+    </button>
+    <button type = "button" class = "butcat" onclick="window.location.href='/vegetable';">
+      <img class="buttonicon"src="/static/images_food/broccoli.png" alt="broccoli"><p class="food-cate">Vegetable</p>
+    </button>
+  </div>
+</div>
+{% endblock %}
+
+<!--['dishware', 'drink', 'food-asian', 'food-fruit', 'food-marine', 'food-prepared', 'food-sweet', 'food-vegetable']-->

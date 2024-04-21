@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Prepared
+{% endblock %}
+
+{% block main %}
+    <h2 id="headers">Look for your prepared food!</h2>
+    <div class="items-container">
+        {% for item in list_subgroup %}
+            <div class="items-cols">
+                <p class="emoji-name">{{ item["name"] }}</p>
+                <img class="image-sell" src="/static/images_food/{{ item['img_name'] }}" alt="/static/images/{{ item['img_name'] }}">
+                <form action="/metadata" method="post">
+                    <button type="submit" class="info-btn" name="submit_meta" value="{{ item['codes'] }}">metadata</button>
+                </form>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

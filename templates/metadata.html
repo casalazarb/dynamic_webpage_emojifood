@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Metadata
+{% endblock %}
+
+{% block main %}
+    <div class="metadata-container">
+        <div class="item-data">
+            <!-- Item metadata is sent from display_metadata function app.py-->
+            <img class="image-meta" src="/static/images_food/{{ item_metadata['img_name'] }}" alt="{{ item_metadata['img_name'] }}">
+
+            <!-- This displays the metadata for each emoji -->
+            <div class="container-metatext">
+                <p class="meta-text">Hexa code: {{ item_metadata["codes"] }}</p>
+                <p class="meta-text">Name: {{ item_metadata["name"] }}</p>
+                <p class="meta-text">Char: {{ item_metadata["char"] }}</p>
+                <p class="meta-text">Subgroup: {{ item_metadata["subgroup"] }}</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

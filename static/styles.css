@@ -1,0 +1,280 @@
+/* Size for brand */
+#navbar .nav-link{
+
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+nav .navbar-brand{
+
+    font-size: xx-large;
+}
+
+#signer{
+
+    background-color: #4D7902; /* Color of the web page header */
+}
+
+#change_pass{
+
+    margin-top: 2%;
+    text-align: center;
+    font-family: georgia,garamond,serif;
+    font-size: 150%;
+    font-style: italic;
+
+}
+
+.butcat{
+
+    background-color: #FFFFFF; /* White background */
+    border: 2px solid #4D7902; /* Green border */
+    color: black; /*text */
+    margin: 1% 1% 1% 1%;
+    cursor: pointer; /* Hand with finger icon */
+    width: 25%;
+
+}
+
+.buttonicon{
+
+    width: 50%;
+}
+
+.food-cate{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20%;
+    font-family: monospace;
+    font-style: italic;
+    font-size: calc(0.5rem + 0.9vw)
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+
+    background-color: #3e8e41;
+}
+
+#btncontainer{
+
+    margin: auto;
+    width: 60%;
+    height: 35vh;
+
+}
+
+.btn-group{
+
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#emojiimage{
+
+    width: 13%;
+    object-fit: cover;
+}
+
+#emojisign{
+
+    width: 35%;
+    object-fit: cover;
+}
+
+.container-fluid{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logincontainer{
+
+    height: 100%;
+    margin: auto;
+}
+
+#headers{
+
+    font: italic 150% Georgia;
+    font-size: calc(0.5rem + 1vw); /* Responsive font size */
+    text-align: center;
+    margin: auto;
+}
+
+#head-contain{
+
+    width: 100%;
+    margin: auto;
+}
+
+.emoji-name{
+
+    width: 100%;
+    float: right;
+    margin-top: 10%;
+    font: italic 100% Georgia;
+    font-size: calc(0.01rem + 1vw);
+    text-align: center;
+}
+
+.image-sell{
+
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+
+}
+
+.items-container{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items-container>*{
+
+    flex: 0 0 15%;
+}
+
+.items-cols{
+
+    background-color: #FFFFFF; /* White background */
+    border: 2px solid #4D7902; /* Green border */
+    color: black; /* text */
+    margin: 1% 1% 1% 1%;
+    cursor: default; /* Shows pointer */
+    width: 15%;
+}
+
+.info-btn{
+
+    display: flex;
+    width: 50%;
+    height: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: calc(0.35rem + 0.5vw);
+    font-family: georgia;
+    font-style: italic;
+
+}
+
+/* Change metadata button when hover */
+.info-btn:hover{
+
+    background-color: #C7DDB5;
+}
+
+.image-meta{
+
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+
+}
+
+.meta-text{
+
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font: 100% Georgia;
+    font-size: calc(0.01rem + 1vw);
+}
+
+.metadata-container{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.item-data{
+
+    background-color: #FFFFFF; /* White background */
+    color: black; /* text */
+    margin: 1% 1% 1% 1%;
+    width: 15%;
+}
+
+.container-metatext{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.mb-3{
+
+    margin-top: 2%;
+}
+
+.apology-container{
+
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8%;
+    width: 50%;
+    text-align: center;
+}
+
+.apology-text{
+
+    font-family: georgia,garamond,serif;
+    font-size: 150%;
+    font-style: italic;
+}
+
+.game-container{
+
+    width:30%;
+    margin: auto;
+}
+
+.promo-container{
+
+    margin-top: 5%;
+    text-align: center;
+}
+
+.question-container{
+
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#winemoji-img{
+
+    margin-bottom: 6%;
+}
+
+.answer-container{
+    margin-top: 8%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+

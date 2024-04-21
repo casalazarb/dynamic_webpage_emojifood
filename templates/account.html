@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Account
+{% endblock %}
+
+{% block main %}
+    <h3 id="change_pass">Change Password</h3>
+    <form action="/account" method="post">
+        <!-- Username field -->
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="old_password" placeholder="Old Password" type="password">
+        </div>
+        <!-- Password field -->
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="new_password" placeholder="New Password" type="password">
+        </div>
+        <!-- Confirm Password field -->
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="confirmation" placeholder="Confirm New Password" type="password">
+        </div>
+        <!-- Button to send the information when the user has updated -->
+        <div class="col text-center">
+            <button class="btn btn-success" type="submit">Change</button>
+        </div>
+    </form>
+{% endblock %}

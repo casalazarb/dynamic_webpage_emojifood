@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- Here appears the apology in case something is not as required -->
+    <div class="apology-container">
+        <p class="apology-text">{{ top }}</p>
+        <p class="apology-text">{{ bottom }}</p>
+    </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Asian
+{% endblock %}
+
+{% block main %}
+    <h2 id="headers">Look for your asian food!</h2>
+    <div class="items-container">
+        <!-- This block dinamically displays all the items in the category Asian -->
+        {% for item in list_subgroup %}
+            <div class="items-cols">
+                <p class="emoji-name">{{ item["name"] }}</p>
+                <img class="image-sell" src="/static/images_food/{{ item['img_name'] }}" alt="/static/images/{{ item['img_name'] }}">
+                <!-- Referenced as submit_meta when clicked this button sends the item code to display_metadata function app.py -->
+                <form action="/metadata" method="post">
+                    <button type="submit" class="info-btn" name="submit_meta" value="{{ item['codes'] }}">metadata</button>
+                </form>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
