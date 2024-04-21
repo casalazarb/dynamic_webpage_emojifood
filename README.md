@@ -3,12 +3,12 @@
 #### Video Demo:
 #### Description:
 
-Inspired by Jennifer 8 Lee's amazing emoji talk, I decided to begin my final project to
+Inspired by Jennifer 8 Lee's amazing emoji talk, I decided to begin this project to
 help anyone who, like me, struggles to understand what each food emoji represents.
 
 Because emojis are mostly used in cellphones, the images are quite small. I was mostly
 interested in the food category, especially because there are so many delicious but
-exotic foods. I am from Colombia in Latin America, and our Asian population is very small,
+exotic foods. I am from a country where Asian population is very small,
 so most people here are unfamiliar with this type of food.
 
 It has been a total pleasure for me to learn a lot of things, such as the fact that
@@ -81,4 +81,4 @@ requirements.txt: the libraries and modules needed in python.
 =======
 # dynamic_webpage_emojifood
 Dynamic webpage, displays information about emojies related to food.
->>>>>>> 01d6fb0eedef958083273d90ef2f8c0904261fea
+
